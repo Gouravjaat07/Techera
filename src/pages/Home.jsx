@@ -108,7 +108,7 @@ const stats = [
 
 const navLinks = [
   { label: "Home", href: "#" },
-  { label: "Team", href: "#team" },
+  { label: "Team", href: "/team" },
   { label: "Mission", href: "#mission" },
   { label: "Events", href: "#events" },
   { label: "Contact", href: "#join" },
