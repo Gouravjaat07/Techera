@@ -555,7 +555,7 @@ function CTASection() {
 
 // ─── APP ─────────────────────────────────────────────────────────────────────
 
-export default function App() {
+export default function Home() {
   return (
     <div style={{ minHeight:"100vh", background:"#050D1A", fontFamily:"system-ui,-apple-system,sans-serif", overflowX:"hidden", width:"100%" }}>
       <GlobalStyles />
