@@ -84,30 +84,27 @@ export default function Navbar() {
             aria-label="TechEra home"
           >
             <div
-              style={{
-                width: 34,
-                height: 34,
-                borderRadius: 10,
-                background: "linear-gradient(135deg,#00EEFF,#4F46E5)",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                flexShrink: 0,
-                boxShadow: "0 0 16px rgba(0,238,255,0.25)",
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: "'JetBrains Mono', monospace",
-                  fontWeight: 700,
-                  fontSize: 13,
-                  color: "#050D1A",
-                  letterSpacing: "-0.03em",
-                }}
-              >
-                TE
-              </span>
-            </div>
+  style={{
+    width: 42,
+    height: 42,
+    borderRadius: 10,
+    overflow: "hidden",          // 👈 important
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexShrink: 0,
+  }}
+>
+  <img
+    src="/images/logo.jpg"
+    alt="TechEra Logo"
+    style={{
+      width: "100%",
+      height: "100%",
+      objectFit: "contain",   // 👈 logo ke liye best
+    }}
+  />
+</div>
             <span
               style={{
                 fontFamily: "'Syne', sans-serif",
