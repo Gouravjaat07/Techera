@@ -27,10 +27,10 @@
   ];
 
   const stats = [
-    { id: 1, value: "500+", label: "Members" },
+    { id: 1, value: "1500+", label: "Members" },
     { id: 2, value: "30+",  label: "Events"  },
     { id: 3, value: "20+",  label: "Collabs" },
-    { id: 4, value: "10+",  label: "Depts"   },
+    { id: 4, value: "7+",  label: "Depts"   },
   ];
 
   // ─── GLOBAL STYLES (fonts injected by Navbar, same family as Team page) ──────
